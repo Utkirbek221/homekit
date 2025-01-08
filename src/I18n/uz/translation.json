@@ -3,5 +3,51 @@
     "main": "Xizmatlarimiz",
     "about": "Biz haqimizda",
     "services": "Aloqa"
+  },
+  "swiper": {
+    "text": "HomeKit bilan energiyani tejash:",
+    "title": "Aqlli uy mahsulotlari bilan siz energiya sarfini isrof qilmasligiga ishonch hosil qilishingiz mumkin. Mashinalar, qurilmalar va jihozlar aqlli uy mahsulotiga ega bo'lganda, ulardan foydalanishdan so'ng darhol boshqarilishi va o'chirilishi mumkin.",
+    "text2": "HomeKit bilan uyingizni boshqaring:",
+    "title2": "Agar siz isitish tizimining haroratini oshirmoqchi bo'lsangiz yoki konditsioneringizdagi haroratni pasaytirmoqchi bo'lsangiz yoki uyingizdan uzoqda suv isitgichni yoqmoqchi bo'lsangiz yoki yotoqda yotganingizda hamma narsani o'chirmoqchi bo'lsangiz, ularni HomeKit orqali mobil telefoningizga bir marta bosish bilan bajaring.",
+    "text3": "HomeKit texnologiyalaridan foydalanish qulayligi:",
+    "title3": "Agar siz texnologiyani yaxshi bilmaydigan odam bo'lsangiz ham, qo'llanmalarni kuzatib, bu narsalar qanday ishlashini tushunishingiz mumkin. Aqlli uy texnologiyalari yordamida siz uyda bo'lmasangiz ham, 24/7 uy bilan bog'langaningizni his qilishingiz mumkin.",
+    "text4": "Eshiklarni qulflash va ochish HomeKit bilan osonroq.",
+    "title4": "Xavfsiz uylar har qanday uyning eng muhim jihati hisoblanadi. Uyingiz uchun qancha qulfdan foydalansangiz ham, uyingizga o'g'rilar va o'g'rilar kirishi xavfi doimo mavjud. HomeKit aqlli texnologiyalari bilan uyingizni aqlli himoya qiling.",
+    "btn":"Bog'lanish"
+  },
+  "services": {
+    "text": "Bizning xizmatlarimiz",
+    "title": "HomeKit kompaniyamiz 2019-yilda tashkil topgan bo'lib ilk bor O'zbekistonda «HomeKit» nomi bilan ish boshlagan. Xizmatlarimiz turlari quyidagilardan iborat:",
+    "textImg":"HomeKit Aqlli Pardalari",
+    "titleImg":"HomeKit aqlli pardalari bilan hayot yanada zavqli ko'rinishga kiradi. Birgina qo'lingizdagi telefon orqali istalgan paytda pardalarni boshqaring.",
+    "textImg2":"HomeKit Aqlli Qulflari",
+    "titleImg2":"Smart qulflar orqali kirish kodi bilan eshikni qulflang va qulfdan chiqaring. Do'stlar, oila va mehmonlar uchun kalitsiz kirish orqali kirish va hisob ma'lumotlarini osongina yarating va yuboring.",
+    "textImg3":"Smart Rozetkalar",
+    "titleImg3":"Maishiy texnika, vaqt kalitlari va o'lchash asboblarining quvvat sarfini masofadan boshqarish va jihozlarning ishdan chiqishi natijasida yuzaga keladigan baxtsiz hodisalarni HomeKit bilan oldini oling.",
+    "textImg4":"HomeKit bilan Uyni aqlli boshqarish",
+    "titleImg4":"Hisoblagichlar, rozetkalar kabi aqlli qurilmalar orqali kvartirani energiyani tejashni boshqaring va elektr energiyasini isrof qilishning oldini olish uchun bizning masofaviy va muntazam elektr jihozlarimizdan foydalaning",
+    "textImg5":"HomeKit Aqlli Kameralari",
+    "titleImg5":"Aqlli kameralar obyektivni, kamerani, boshqaruvni, protsessorni va modelga qarab, ixcham tasvirni qayta ishlash yoki dasturlash tilini bilmasangiz ham, ko'rish sensorini sozlash oson! Dastlabki foydalanuvchi interfeyslari har qanday ko'rish tizimiga tezkor integratsiyalashuvdan tashqari, real vaqt rejimida tizim bilan o'zaro ta'sir o'tkazish imkonini beradi.",
+    "textAbout":"Biz haqimizda",
+    "titleAbout":"2019-yilda Toshkent shahrida o’z faoliyatini boshladi. “HomeKit” nomi ostida faoliyat boshlagan jamoamiz o’z oldiga O’zbekistonlik insonlarni aqlli uy bilan bo’ladigan ko’prik vazifasini bajarish, ular uchun har doim eng yaxshi tanlovlarni taqdim qilishni maqsad qilib qo’ygan edi. So’nggi 3 yildan oshiq vaqt davomida jami 50 dan ortiq mijozlarimizni rozi qildik va loyihalarni muvaffaqqiyatli amalga oshirdik",
+    "textAbout2":"O'zbekiston",
+    "titleAbout2":"Biz mahsulotlarimizni Xitoy, Buyuk Britaniya, Amerika, Kanada va Yevropadan olib kelamiz. Bizning hamkorlarimiz Toshkent City, Mirobod, Akay City va boshqalar.",
+    "textAboutLocation":"Toshkent shahar va butun respublika bo'ylab"
+  },
+  "serviceSwiper": {
+    "text": "Yoritish, rozetkalar, pardalar",
+    "title": "Yorug'lik guruhlari (diskret), WW tasmasi (ikki rangli, oq va sariq lenta), RGB lenta (uch rangli), RGBW tasmasi (to'rt rangli), RGBWW tasmasi (besh rangli), kalitlar (standart seriyadan) , Kalitlar (simsiz), Avtobus panellari, harakat datchiklari, yorug'lik datchiklari, motorli soyalar, rolikli pardalar, rim pardalari, garaj eshiklari, toymasin eshiklar, boshqariladigan chiqish guruhlari",
+    "text2":"Mikroiqlim",
+    "title2":"Yerdan isitish zonalari, Radiatorlar guruhlari, Xona termostatlari (displeyli/displeysiz), Teskari aloqa bilan konditsioner tizimi, IQ aloqasi bo'lmagan konditsioner tizimi, Teskari aloqa bilan ventilyatsiya tizimi, Egzoz fanatlar",
+    "text3":"Oqish himoyasi",
+    "title3":"Oqish datchiklari soni (simli), o'rnatilgan oqish datchiklari (simli) soni, Oqish datchiklari soni (simsiz), suvni to'sib qo'yadigan kranlar soni, suv kirishlari soni",
+    "text4":"Video monitoring",
+    "title4":"Tashqi kameralar soni, ichki kameralar soni",
+    "text5":"Multimedia",
+    "title5":"Televizorni boshqarish, Ko'p xonali zonalar (stereo), Uy kinoteatrlari (5.1, 7.1), WI-FI nuqtalari, Boshqaruv panellari",
+    "text6":"Xavfsizlik tizimi",
+    "title6":"Termal yong'in detektorlari, Tutun detektorlari",
+    "text7":"Interkom",
+    "title7":"Tashqi panellar, ichki panellar"
   }
 }

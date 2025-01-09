@@ -5,7 +5,7 @@ import ServiceImg2 from '../IMG/Service2.jpeg'
 import ServiceImg3 from '../IMG/Service3.jpg'
 import ServiceImg4 from '../IMG/Service4.jpg'
 import ServiceImg5 from '../IMG/Service5.jpg'
-import logo from '../../public/logoHomekit.png'
+import logo from '../IMG/logoHomekit.png'
 import { MdLocationOn } from 'react-icons/md'
 import AOS from 'aos';
 import { useEffect } from 'react';
@@ -26,7 +26,7 @@ export default function Service() {
                             <img src={ServiceImg} alt="" className='rounded-[14px] max-md:rounded-[10px] h-[70%] w-[80%] max-sm:rounded-[7px] max-sm:h-[95%] max-sm:w-[95%] object-cover' />
                         </div>
                         <div className=' w-[50%] p-[22px] max-sm:p-[5px]'>
-                            <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-sm:text-[18px] text-left leading-[1.2]'>{t('services.textImg')}</h1>
+                            <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-sm:text-[15px] max-sm:leading-[.9] text-left leading-[1.2]'>{t('services.textImg')}</h1>
                             <p className='font-[500] mt-[20px] mb-[20px] max-lg:text-[14px] max-lg:mt-[10px] max-sm:text-[11px] max-sm:leading-[12px] max-lg:mb-[10px] max-sm:mb-[0px]'>{t('services.titleImg')}</p>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ export default function Service() {
                                 <img src={ServiceImg2} alt="" className='rounded-[14px]  object-cover h-full w-full' />
                             </div>
                             <div className='pt-[20px] max-sm:pt-[5px]'>
-                                <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-md:text-[24px] max-sm:text-[18px] text-left leading-[1.2]'>{t('services.textImg2')}</h1>
+                                <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-md:text-[24px] max-sm:text-[15px] max-sm:leading-[.9] text-left leading-[1.2]'>{t('services.textImg2')}</h1>
                                 <p className='font-[500] mt-[20px] max-sm:mt-[5px] mb-[20px] max-lg:text-[14px] max-lg:mt-[10px] max-sm:text-[11px] max-sm:leading-[12px] max-lg:mb-[10px] max-sm:mb-[0px]'>{t('services.titleImg2')}</p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ export default function Service() {
                                 <img src={ServiceImg3} alt="" className='rounded-[14px]  object-cover h-full w-full' />
                             </div>
                             <div className='pt-[20px] max-sm:pt-[5px]'>
-                                <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-md:text-[24px] max-sm:text-[18px] text-left leading-[1.2]'>{t('services.textImg3')}</h1>
+                                <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-md:text-[24px] max-sm:text-[15px] max-sm:leading-[.9] text-left leading-[1.2]'>{t('services.textImg3')}</h1>
                                 <p className='font-[500] mt-[20px] max-sm:mt-[5px] mb-[20px] max-lg:text-[14px] max-lg:mt-[10px] max-sm:text-[11px] max-sm:leading-[12px] max-lg:mb-[10px] max-sm:mb-[0px]'>{t('services.titleImg3')}</p>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ export default function Service() {
                             <img src={ServiceImg4} alt="" className='rounded-[14px] max-md:rounded-[10px] h-[70%] w max-sm:rounded-[7px]-[80%] max-95:h-[70%] max-sm:w-[95%] object-cover' />
                         </div>
                         <div className=' w-[50%] p-[22px] max-sm:p-[5px]'>
-                            <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-sm:text-[18px] text-left leading-[1.2]'>{t('services.textImg4')}</h1>
+                            <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-sm:text-[15px] max-sm:leading-[.9] text-left leading-[1.2]'>{t('services.textImg4')}</h1>
                             <p className='font-[500] mt-[20px] mb-[20px] max-lg:text-[14px] max-lg:mt-[10px] max-sm:text-[11px] max-sm:leading-[12px] max-lg:mb-[10px] max-sm:mb-[0px]'>{t('services.titleImg4')}</p>
                         </div>
                     </div>
@@ -63,8 +63,8 @@ export default function Service() {
                         <div className='h-[400px] max-lg:h-[270px] max-md:h-[220px] max-sm:h-[130px] w-[50%] flex items-center justify-center'>
                             <img src={ServiceImg5} alt="" className='rounded-[14px] max-md:rounded-[10px] h-[70%] w max-sm:rounded-[7px]-[80%] max-95:h-[70%] max-sm:w-[95%] object-cover' />
                         </div>
-                        <div className=' w-[50%] p-[22px] max-sm:p-[5px]'>
-                            <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-sm:text-[18px] text-left leading-[1.2]'>{t('services.textImg5')}</h1>
+                        <div className=' w-[50%] p-[22px] max-sm:p-[5px] overflow-hidden'>
+                            <h1 className='font-[700] text-[2.5rem] max-lg:text-[28px] max-sm:text-[15px] max-sm:leading-[.9] text-left leading-[1.2]'>{t('services.textImg5')}</h1>
                             <p className='font-[500] mt-[20px] mb-[20px] max-lg:text-[14px] max-lg:mt-[10px] max-sm:text-[11px] max-sm:leading-[12px] max-lg:mb-[10px] max-sm:mb-[0px]'>{t('services.titleImg5')}</p>
                         </div>
                     </div>

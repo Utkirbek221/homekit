@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../public/logoHomekit.png';
+import logo from '../IMG/logoHomekit.png';
 import { useTranslation } from 'react-i18next';
 import { IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-router-dom';

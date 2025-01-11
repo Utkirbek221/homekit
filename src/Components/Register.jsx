@@ -15,7 +15,7 @@ import { PiBellRingingBold, PiGarageLight } from 'react-icons/pi';
 import { RxSwitch } from 'react-icons/rx';
 
 export default function Register() {
-
+  const [selectedItem, setSelectedItem] = useState(null);
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [error, setError] = useState('');
@@ -38,14 +38,14 @@ export default function Register() {
     setError('');
     setSuccess('');
 
-    if (!name || phone.length !== 12) { // 12 includes 9 digits + 3 dashes
+    if (!name || phone.length !== 12 || !selectedItem) { // 12 includes 9 digits + 3 dashes
       setError(t('register.error')); // "Ma'lumot to'ldirilmagan yoki telefon raqami noto'g'ri"
       return;
     }
 
     const chatId = '1005236949';
     const token = '7426048487:AAEHujQ0BJjkJ0nZoLg4KOEE94EbrIdOSCU';
-    const message = `Ismi: ${name}\nTelefon raqami: +998${phone.replace(/-/g, '')}`;
+    const message = `Ismi: ${name}\nTelefon raqami: +998${phone.replace(/-/g, '')}\nTanlangan element: ${selectedItem.label}`;
 
     try {
       const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
@@ -63,6 +63,7 @@ export default function Register() {
         setSuccess(t('register.success')); // "Ma'lumot yuborildi"
         setName('');
         setPhone('');
+        setSelectedItem(null);
         setIsModalOpen(true); // Open modal on success
       } else {
         setError(t('register.fail')); // "Ma'lumot yuborishda xatolik"
@@ -100,7 +101,7 @@ export default function Register() {
   ];
 
   return (
-    <div className="bg-[#b8b8b84e] w-full h-full">
+    <div id='registor' className="bg-[#b8b8b84e] w-full h-full">
       <div className="w-full h-full flex flex-col justify-center items-center p-[50px_15vw] jura text-[#fff] max-lg:p-[50px_13vw] max-md:p-[50px_10vw] max-sm:p-[50px_7vw]">
         <div className="flex flex-col items-start justify-center p-[20px] w-[83%]">
           <p className="text-[18px] font-[300] max-md:text-[15px]">{t('register.title')}</p>
@@ -109,14 +110,14 @@ export default function Register() {
         <div className="p-[20px]">
           <div className="border-[2px] border-[hsla(0,0%,100%,.386)] p-[20px_30px] rounded-[30px]">
             <div className="flex flex-col gap-[20px] mb-[20px]">
-                {error && <p className="text-red-500">{error}</p>}
-                <input
-                  className="bg-transparent border-b-[2px] border-solid border-[hsla(0,0%,100%,.386)] p-[10px] text-[#fff] focus:outline-none"
-                  type="text"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder={t('register.name')}
-                />
+              {error && <p className="text-red-500">{error}</p>}
+              <input
+                className="bg-transparent border-b-[2px] border-solid border-[hsla(0,0%,100%,.386)] p-[10px] text-[#fff] focus:outline-none"
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                placeholder={t('register.name')}
+              />
               <div className="relative w-full flex justify-center items-center">
                 <span className="absolute left-2 top-[22px] transform -translate-y-1/2 ">+998</span>
                 <input
@@ -131,10 +132,12 @@ export default function Register() {
             <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-[20px]">
               {items.map((item, index) => (
                 <div
+                  onClick={() => setSelectedItem(item)}
                   key={index}
-                  className="flex flex-col items-center justify-center text-center"
+                  className={`flex flex-col items-center justify-center text-center cursor-pointer p-[10px] rounded-md  ${selectedItem === item ? 'bg-gray-300' : 'bg-transparent' 
+                    }`}
                 >
-                  <div className="text-[36px] max-md:text-[25px]">{item.icon}</div>
+                  <div className="text-[36px] max-md:text-[25px] ">{item.icon}</div>
                   <p className="text-[18px] max-md:text-[13px]">{item.label}</p>
                 </div>
               ))}

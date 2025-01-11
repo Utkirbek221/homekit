@@ -60,14 +60,14 @@ export default function MainSwiper() {
             >
                 {BgImg.map((item, index) => {
                     return (
-                        <SwiperSlide key={index}>
+                        <SwiperSlide  key={index}>
                             <div key={item.id} className='jura flex flex-col w-[100%] h-[100vh] relative bg-[#0000006e] z-2'>
                                 <img src={item.img} alt="" className='w-[100%] h-[100%] object-center object-cover z-[-1]' />
                                 <div className='absolute flex flex-col h-[100%] justify-center left-0 top-0 w-[100%] p-[0_13vw] max-sm:p-[0_10vw]'>
                                     <div className='p-[16px_5px_16px_25px]  pr-[30%] max-lg:pr-[0]'>
                                         <h1 className='text-[55px] font-[300] text-white leading-[1.2] max-lg:text-[45px] max-md:text-[35px] max-sm:text-[22px]'>{item.text}</h1>
                                         <p className='text-white text-left mt-[20px] text-[22px] mb-[30px]  max-md:text-[16px] max-md:mt-[10px] max-md:mb-[20px] max-sm:text-[14px]'>{item.text2}</p>
-                                        <button className='text-white border-[1px] border-[#b50a3f] bg-[#b50a3f] rounded-[24px] text-[16px] p-[15px_25px] max-md:text-[14px] max-md:p-[10px_20px]'>Bog'lanish</button>
+                                        <a href='#registor' className='text-white border-[1px] border-[#b50a3f] bg-[#b50a3f] rounded-[24px] text-[16px] p-[15px_25px] max-md:text-[14px] max-md:p-[10px_20px]'>{t("swiper.btn")}</a>
                                     </div>
                                 </div>
                             </div>

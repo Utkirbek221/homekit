@@ -39,7 +39,7 @@ export default function ServiceTypes() {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="bg-black text-white p-6 rounded-[26px] shadow-lg flex items-center gap-4 max-sm:p-[17px] max-sm:rounded-[13px]"
+                            className="bg-black text-white p-6 rounded-[22px] shadow-lg flex items-center gap-4 max-sm:p-[17px] max-sm:rounded-[13px] hover:scale-105 duration-150"
                         >
                             <div>{service.icon}</div>
                             <p className="text-sm md:text-base">{service.text}</p>

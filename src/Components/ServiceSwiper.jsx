@@ -30,7 +30,7 @@ export default function ServiceSwiper() {
     };
 
     return (
-        <div className="  w-full pt-[150px] max-md:pt-[50px]">
+        <div id='serviceswiper' className="  w-full pt-[150px] max-md:pt-[50px]">
             <div className="w-full flex flex-col justify-center items-center ">
                 <div className="flex w-full overflow-visible  justify-center items-center">
                     <Swiper
@@ -54,6 +54,7 @@ export default function ServiceSwiper() {
                                 spaceBetween: 10,
                             },
                             768: {
+
                                 spaceBetween: 20,
                             },
                             1024: {

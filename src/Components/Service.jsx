@@ -17,7 +17,7 @@ export default function Service() {
       }, []);
     return (
         <>
-            <div className='p-[50px_15vw] max-lg:p-[50px_13vw] max-md:p-[50px_10vw] max-sm:p-[50px_7vw] flex flex-col items-center justify-center jura text-[#fff] h-full w-full'>
+            <div id='service' className=' p-[50px_15vw] max-lg:p-[50px_13vw] max-md:p-[50px_10vw] max-sm:p-[50px_7vw] flex flex-col items-center justify-center jura text-[#fff] h-full w-full'>
                 <h1 className='text-center text-[55px] font-[600] max-lg:text-[45px] max-md:text-[30px] max-sm:text-[23px]'>{t('services.text')}</h1>
                 <p className='text-[20px] font-[500] mt-[20px] text-center mb-[1rem] max-lg:text-[18px] max-md:text-[16px] max-md:mt-[10px] max-sm:text-[13px]'>{t('services.title')}</p>
                 <div className='mt-[3vw] grid grid-cols-1 w-full gap-[40px] max-lg:gap-[20px] max-sm:gap-[14px]'>
@@ -70,7 +70,7 @@ export default function Service() {
                     </div>
                 </div>
             </div>
-            <div className='jura flex  items-center justify-center h-full w-full'>
+            <div id='aboute' className='jura flex  items-center justify-center h-full w-full overflow-hidden'>
                 <div className='pb-[200px] max-md:pb-[150px] flex max-sm:flex-col max-sm:flex-wrap items-center justify-center p-[50px_15vw] max-lg:p-[50px_13vw] max-md:p-[50px_10vw] max-sm:p-[50px_7vw] w-full h-full'>
                     <div className='relative p-[150px_5vw_0] max-lg:p-[50px_2vw_0] max-sm:p-[0]'>
                         <div data-aos="fade-right"

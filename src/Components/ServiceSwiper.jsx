@@ -38,7 +38,7 @@ export default function ServiceSwiper() {
                         centeredSlides={true}
                         loop={true}
                         autoplay={{
-                            delay: 25000,
+                            delay: 2500,
                             disableOnInteraction: false,
                         }}
                         navigation={{

@@ -6,7 +6,6 @@ import Footer from '../Pages/Footer'
 export default function Layout() {
     return (
         <>
-        
             <Header />
             <Outlet />
             <Footer/>
